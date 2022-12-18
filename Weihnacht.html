@@ -1,0 +1,193 @@
+<html>
+    
+    
+    
+     <head>
+     <meta name="author" content="Huda Azzani">
+           <title>Weihnachtskarte</title>
+    <meta charest="utf-8">
+      
+    
+<style>
+    
+        body  {
+            background:#000000 ;
+            background: url(abc.jpg);
+            background-size: cover;
+            
+            
+            margin-top:1px;
+            
+            font-family: "comic sans ms "," Comic sans" , cursive;
+        }
+            
+            
+    h1{
+        font-size:100px; 
+        color:coral;
+        text-align: center;
+        }
+        
+        
+        p{
+            color:silver;
+            font-size: 50px;
+            text-align: center;
+            
+            
+        }
+   
+    
+        p.small
+        {
+            font-size: 24px;
+            margin-right: 50px;
+        }  
+         
+        .tanne{
+            height: 235px;
+            animation: tanne 10s linear infinite;
+            animation-delay: 0.5s;
+            
+        }
+         
+       .ab {
+           height: 200px;
+           position: absolute;
+           bottom: 30px;
+           animation: ab 10s linear infinite;
+        
+          }
+
+
+        .kugel {
+            border-radius: 15px;
+            height: 30px;
+            width: 30px;
+            margin: 5px;
+            display: inline-block;
+            
+        }
+    
+    .licht {
+        height: 100px;
+        position: absolute;
+        top: 160px;
+        
+        }
+    .licht2 {
+        height: 100px;
+        position: absolute;
+        right: 100px;
+        }
+    
+        .red{ background-color: red;
+          }
+        .blau {
+            background-color: blue;
+        }
+        .green{
+            background-color: green;
+        }
+        .animation-1{
+            animation: blinken 0.5s linear infinite ;
+        }
+        .animation-2{
+            animation: blinken 0.7s linear infinite ;
+        }
+        .animation-3{
+            animation: blinken 0.9  linear infinite ;
+        }
+        @keyframes blinken {
+            0% {
+                opacity:  0.2;
+            }
+            100%{
+                opacity: 1;
+            }
+            
+        }
+        @keyframes ab {
+            0%{
+                right: -10%;
+            }
+            100%{
+                right: 100%;
+            }
+        }
+        @keyframes tanne {
+            0% {
+                transform: translate(0,0)rotate(0deg);
+            }
+            40%{
+                transform: translate(1px,-1px)rotate(3deg);
+            }
+            50%{
+                transform: translate(-1px,1px)rotate(-3deg);
+            }
+            60%{
+                transform: translate(1px,-1px)rotate(3deg);
+            }
+            100%{
+                transform: translate(0,0)rotate(0deg);
+            }
+        }
+        
+         </style>
+    
+    
+    </head>
+    <body>
+        <div id="kugel red animation-1"></div>
+        
+        
+        
+          <div id="kugel blue animation-3"></div>
+          <div id="kugel green animation-2"></div>
+          <div id="kugel red animation-1"></div>
+          <div id="kugel blue animation-3"></div>
+          <div id="kugel green animation-2"></div>
+          <div id="kugel red animation-1"></div>
+          <div id="kugel blue animation-2"></div>
+          <div id="kugel green animation--3"></div>
+        
+        
+      <h1>Frohe Weihnachten</h1>
+    <p> <br>und gutes neues Jahr </p>
+        
+        
+        <div id="kugel red animation-1"></div>
+        
+        
+        
+          <div id="kugel blue animation-3"></div>
+          <div id="kugel green animation-2"></div>
+         <div id="kugel red animation-1"></div>
+          <div id="kugel blue animation-3"></div>
+          <div id="kugel green animation-2"></div>
+          <div id="kugel red animation-1"></div>
+          <div id="kugel blue animation-2"></div>
+          <div id="kugel green animation--3"></div>
+        
+        <p class="small"> Von Huda Al-Azzani </p>
+        <img class="tanne"src="tanne.gif">
+        <img class="ab"  src="ab.gif">
+        <img class="licht"  src="licht.gif">
+        <img class="licht2" src="licht2.gif">
+        
+        
+       
+         
+        
+    
+    
+    
+    
+    </body>
+
+
+
+
+</html>
+
+
